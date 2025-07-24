@@ -68,7 +68,7 @@ test('purchase item', async ({ page }) => {
     await page.waitForTimeout(2000)
     await expect(page.getByRole('heading', {name: 'THANK YOU FOR YOUR ORDER'})).toBeVisible()
     
-    await page.waitForTimeout(3000)
+    //await page.waitForTimeout(3000)
 });
 
 test('login', async ({ page }) => {

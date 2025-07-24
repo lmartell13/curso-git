@@ -8,8 +8,7 @@ pipeline {
             sh 'npx playwright test'
          }
       }
-   }
-   
+   }   
    post{
        always{
             publishHTML([
